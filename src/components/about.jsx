@@ -6,28 +6,44 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { 
+          id: "HTML5_skill", 
+          content: "Java & JavaFX", 
+          porcentage: "90%", 
+          value: "80" 
+        },
+        { 
+          id: "CSS3_skill", 
+          content: "SQL", 
+          porcentage: "85%", 
+          value: "55" 
+        },
         {
           id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
+          content: "Flutter",
+          porcentage: "82%",
+          value: "82"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
         {
           id: "ReactJS_skill",
-          content: "ReactJS",
+          content: "REST APIs",
           porcentage: "80%",
           value: "80"
         },
+        { 
+          id: "PHP_skill", 
+          content: "C/C++", 
+          porcentage: "75%", 
+          value: "75" 
+        },
+        
         {
           id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
+          content: "Tensorflow",
+          porcentage: "70%",
+          value: "70"
         },
-        {
+        /*{
           id: "VanillaJS_skill",
           content: "VanillaJS",
           porcentage: "85%",
@@ -38,24 +54,24 @@ class About extends React.Component {
           content: "Wordpress",
           porcentage: "80%",
           value: "80"
-        }
+        }*/
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I am currently a sophomore at Duke University, double majoring in Electrical and Computer Engineering and Computer Science. My lifelong passion is technology, and I have been developing software and hardware from an early age. I take my work seriously and have a proven track record of academic achievement and excellence. I wish to gain work experience in using my passion in technology to create real solutions which solve real-world problems."
         },
-        {
+        /*{
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
         },
         {
           id: "third-p-about",
           content:
             "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }
+        }*/
       ]
     };
   }
