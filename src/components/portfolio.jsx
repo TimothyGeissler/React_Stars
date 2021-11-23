@@ -8,6 +8,15 @@ import stock3 from "../img/image4.jpg";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
 
+import keeper_add from "../img/keeper/keeper_add.png";
+import keeper_home from "../img/keeper/keeper_home.png";
+import keeper_icon from "../img/keeper/keeper_icon.jpg";
+import keeper_all_white from "../img/keeper/keeper_all_white.png";
+import keeper_all from "../img/keeper/keeper_all.png";
+import keeper_login from "../img/keeper/keeper_login.png";
+import keeper_search from "../img/keeper/keeper_search.png";
+import keeper_info from "../img/keeper/keeper_info.png";
+
 class Portfolio extends React.Component {
   render() {
     return (
@@ -18,7 +27,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Some of my biggest projects.
+                  Some of my favourite projects.
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -149,9 +158,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
+                <a href={keeper_info} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={keeper_all_white} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -173,35 +182,35 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={keeper_all_white}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={keeper_login}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={keeper_home}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={keeper_add}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={keeper_search}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >

@@ -32,7 +32,7 @@ a:hover {
 }
 
 .color-a {
-  color: #0078ff;
+  color: #ff006a;
 }
 
 .color-d {
@@ -153,7 +153,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #000000;
   margin: 0 auto;
 }
 
@@ -172,7 +172,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #000000;
   width: 100px;
   bottom: -12px;
 }
@@ -319,7 +319,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #09284b;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -474,26 +474,26 @@ NAVBAR
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: #707070;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: #000000;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: #4d4d4d;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: #000000;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: #3d3d3d;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -682,7 +682,7 @@ ABOUT
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #e7e7e7;
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
   height: .7rem;
@@ -690,7 +690,7 @@ ABOUT
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #00d9ff;
+  background-color: #0e1142;
 }
 
 /*
