@@ -31,6 +31,11 @@ import do_purple_msg from "../img/do/do_purple_msg.png";
 import do_desc from "../img/do/do_description.png";
 
 import time_info from "../img/timetabler/time_info.png";
+import time_mock_home from "../img/timetabler/time_mock_home.png";
+import time_desc from "../img/timetabler/time_desc.png";
+import time_sett_sql from "../img/timetabler/time_settings_sql.png";
+import time_ui_table from "../img/timetabler/time_ui_table.png";
+import time_dash_home from "../img/timetabler/time_dash_home.png";
 
 
 class Portfolio extends React.Component {
@@ -54,7 +59,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={time_info} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={time_info} alt="" className="img-fluid" />
+                    <img src={time_mock_home} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -75,35 +80,35 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={time_mock_home}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={time_desc}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={time_ui_table}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={time_dash_home}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={time_sett_sql}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
