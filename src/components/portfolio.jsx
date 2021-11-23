@@ -30,6 +30,8 @@ import do_yellow_msg from "../img/do/do_yellow_msg.png";
 import do_purple_msg from "../img/do/do_purple_msg.png";
 import do_desc from "../img/do/do_description.png";
 
+import time_info from "../img/timetabler/time_info.png";
+
 
 class Portfolio extends React.Component {
   render() {
@@ -50,9 +52,9 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href={time_info} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={time_info} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
