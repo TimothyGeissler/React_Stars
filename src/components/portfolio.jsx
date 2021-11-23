@@ -17,6 +17,20 @@ import keeper_login from "../img/keeper/keeper_login.png";
 import keeper_search from "../img/keeper/keeper_search.png";
 import keeper_info from "../img/keeper/keeper_info.png";
 
+import do_square from "../img/do/do_squareish.png";
+import do_stacked from "../img/do/do_stacked.png";
+import do_triplets from "../img/do/do_triplets.png";
+import do_red_yellow from "../img/do/do_red_yellow.png";
+import do_green_timer from "../img/do/do_green_timer.png";
+import do_green_msg from "../img/do/do_green_msg.png";
+import do_blue_msg from "../img/do/do_blue_msg.png";
+import do_blue_red from "../img/do/do_blue_red.png";
+import do_red from "../img/do/do_red.png";
+import do_yellow_msg from "../img/do/do_yellow_msg.png";
+import do_purple_msg from "../img/do/do_purple_msg.png";
+import do_desc from "../img/do/do_description.png";
+
+
 class Portfolio extends React.Component {
   render() {
     return (
@@ -220,9 +234,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-medlingos">
+                <a href={do_desc} data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={do_square} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -243,35 +257,49 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={do_triplets}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={do_stacked}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={do_green_timer}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={do_green_msg}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={do_blue_msg}
+                  data-lightbox="gallery-medlingos"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={do_purple_msg}
+                  data-lightbox="gallery-medlingos"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={do_yellow_msg}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
