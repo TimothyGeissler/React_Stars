@@ -1,31 +1,79 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c2e44062617971cb21cb61e66f0cbda",
+    "revision": "133fc2cf5ba18f55eec4606d6768d7f9",
     "url": "./index.html"
   },
   {
-    "revision": "e825328dac6d1b59b594",
+    "revision": "f0149c763761b11e1945",
     "url": "./static/css/2.242f24fe.chunk.css"
   },
   {
-    "revision": "0307bc97c23de5c3f3b9",
-    "url": "./static/css/main.d48d614a.chunk.css"
+    "revision": "eff4135c19386138b1aa",
+    "url": "./static/css/main.904f3b20.chunk.css"
   },
   {
-    "revision": "e825328dac6d1b59b594",
-    "url": "./static/js/2.c8517805.chunk.js"
+    "revision": "f0149c763761b11e1945",
+    "url": "./static/js/2.f8e974a3.chunk.js"
   },
   {
     "revision": "f2e097a5fa04a5d1b01656a6cd1a1a1a",
-    "url": "./static/js/2.c8517805.chunk.js.LICENSE"
+    "url": "./static/js/2.f8e974a3.chunk.js.LICENSE"
   },
   {
-    "revision": "0307bc97c23de5c3f3b9",
-    "url": "./static/js/main.013160d8.chunk.js"
+    "revision": "eff4135c19386138b1aa",
+    "url": "./static/js/main.9b8884fe.chunk.js"
   },
   {
     "revision": "fd2b481d26bacea8939a",
     "url": "./static/js/runtime-main.9f96b81b.js"
+  },
+  {
+    "revision": "15837640d21c196b36b7de08d6e3d023",
+    "url": "./static/media/do_blue_msg.15837640.png"
+  },
+  {
+    "revision": "7c373cba2cb745ded68992b3be28a5d4",
+    "url": "./static/media/do_blue_red.7c373cba.png"
+  },
+  {
+    "revision": "af90cd9598efe847b443a6d16ae55d3c",
+    "url": "./static/media/do_description.af90cd95.png"
+  },
+  {
+    "revision": "08648776b5e6e91d390aae7c29ed9cc3",
+    "url": "./static/media/do_green_msg.08648776.png"
+  },
+  {
+    "revision": "c84d3b62859d21f11f7ab6ddfe0253d4",
+    "url": "./static/media/do_green_timer.c84d3b62.png"
+  },
+  {
+    "revision": "fd6e77fd43832533fcdd2baf491bdee7",
+    "url": "./static/media/do_purple_msg.fd6e77fd.png"
+  },
+  {
+    "revision": "752bf39f1fb370f73b2ca5e3d9d238bd",
+    "url": "./static/media/do_red.752bf39f.png"
+  },
+  {
+    "revision": "4918133179a0f51492a6a0222cdfd9c9",
+    "url": "./static/media/do_red_yellow.49181331.png"
+  },
+  {
+    "revision": "3f117add75ea352c9bc067d8a7ecdb64",
+    "url": "./static/media/do_squareish.3f117add.png"
+  },
+  {
+    "revision": "6821006fc3b5cba0fc7ddc67f2b52aa8",
+    "url": "./static/media/do_stacked.6821006f.png"
+  },
+  {
+    "revision": "93275e0553138445d19eefc26810c344",
+    "url": "./static/media/do_triplets.93275e05.png"
+  },
+  {
+    "revision": "99dbe01a700fc8363ed4c2349a2e5da2",
+    "url": "./static/media/do_yellow_msg.99dbe01a.png"
   },
   {
     "revision": "67af05e12311bac06327b43ca31e166b",
