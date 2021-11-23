@@ -43,10 +43,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">School Timetabler</h2>
+                        <h2 className="w-title">Timetabler</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Java, JavaFX & SQL
+                            School administration system and Genetic Algorithm timetabler in Java, JavaFX & SQL
                           </span>
                         </div>
                       </div>
@@ -107,7 +107,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">CSP Mobile</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                             Flutter & REST APIs
+                             Car dealership management client using Flutter & REST APIs
                           </span>{" "}
                         </div>
                       </div>
@@ -168,7 +168,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">Keeper</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Flutter
+                            A password storage app in Flutter
                           </span>
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
@@ -227,10 +227,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">DO:</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Bootstrap ReactJS GoogleAPI
+                            An elegant reminders app in Flutter
                           </span>
                         </div>
                       </div>
