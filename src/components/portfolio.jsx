@@ -57,7 +57,7 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={time_info} data-lightbox="gallery-vmarine">
+                <a href={time_desc} data-lightbox="gallery-vmarine">
                   <div className="work-img">
                     <img src={time_mock_home} alt="" className="img-fluid" />
                   </div>
@@ -81,13 +81,6 @@ class Portfolio extends React.Component {
                 </a>
                 <a
                   href={time_mock_home}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={time_desc}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
