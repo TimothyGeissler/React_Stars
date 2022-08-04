@@ -1,0 +1,1 @@
+Run npm install, then npm start to run @ http://localhost:3000/
