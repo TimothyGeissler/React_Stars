@@ -64,6 +64,7 @@ class About extends React.Component {
     };
   }
 
+
   render() {
     return (
       <section id="about" className="about-mf sect-pt4 route">
@@ -125,6 +126,13 @@ class About extends React.Component {
                           </p>
                         );
                       })}
+                      <div>
+                        <br>
+                        </br>
+                        <a style={{color: '#09284b', textDecorationLine: 'underline', fontSize: 18}} href="https://drive.google.com/drive/folders/1ZdyQ3_VgnAwDLEYeRmVDNPnp_abGKrJK" target='_blank'>
+                          View my resume
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
