@@ -1,31 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd48daa882a0f3e77fb9043561647ae3",
+    "revision": "dc84bf7ef77536ce88f5fed35e6e21be",
     "url": "./index.html"
   },
   {
-    "revision": "b03826d923f4e9b25d3e",
+    "revision": "bd70ddaa4c19498e1f26",
     "url": "./static/css/2.a417cd58.chunk.css"
   },
   {
-    "revision": "42c9d74efc9c5547f0bb",
+    "revision": "8f0096eebea01b4b135f",
     "url": "./static/css/main.153bd214.chunk.css"
   },
   {
-    "revision": "b03826d923f4e9b25d3e",
-    "url": "./static/js/2.754c9893.chunk.js"
+    "revision": "bd70ddaa4c19498e1f26",
+    "url": "./static/js/2.2ae33f6b.chunk.js"
   },
   {
     "revision": "8db3a0471793e9bb96443ba06a09bcfe",
-    "url": "./static/js/2.754c9893.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.2ae33f6b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "42c9d74efc9c5547f0bb",
-    "url": "./static/js/main.11598b83.chunk.js"
+    "revision": "8f0096eebea01b4b135f",
+    "url": "./static/js/main.e7c913f3.chunk.js"
   },
   {
     "revision": "fe41a73be8ae3ecc4e63",
     "url": "./static/js/runtime-main.0a5e682f.js"
+  },
+  {
+    "revision": "6c9444740acb3b2ca166932547100b64",
+    "url": "./static/media/backstage_logo_words.6c944474.png"
+  },
+  {
+    "revision": "7c1fc7b5db72f41da8d1419b3ffc9f92",
+    "url": "./static/media/components.7c1fc7b5.png"
+  },
+  {
+    "revision": "9e492f7eee895e06857b11046ac4ba22",
+    "url": "./static/media/config&publish.9e492f7e.png"
   },
   {
     "revision": "15837640d21c196b36b7de08d6e3d023",
@@ -178,6 +190,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bd80794fddbffb4031fab537cc898680",
     "url": "./static/media/myImage.bd80794f.png"
+  },
+  {
+    "revision": "9529ee412ad508461629a9135b6a89af",
+    "url": "./static/media/swcatalog.9529ee41.png"
+  },
+  {
+    "revision": "bc971ef7282546c86c79c83a5615585b",
+    "url": "./static/media/templates.bc971ef7.png"
   },
   {
     "revision": "1fe3395ec1fbbb4eaac0127ee23458b2",

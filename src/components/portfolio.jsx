@@ -43,6 +43,8 @@ import backstage_swcatalog from "../img/backstage/swcatalog.png";
 import backstage_templates from "../img/backstage/templates.png";
 import backstage_logo_words from "../img/backstage/backstage_logo_words.png";
 
+import stars_intro from "../img/react-stars/intro2.png";
+
 class Portfolio extends React.Component {
   render() {
     return (
@@ -238,7 +240,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">DO:</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            An elegant reminders app in Flutter
+                            An elegant reminders app for Android and iOS, written in Flutter
                           </span>
                         </div>
                       </div>
@@ -298,6 +300,33 @@ class Portfolio extends React.Component {
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
+                </a>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="work-box">
+                <a href={stars_intro} data-lightbox="gallery-medlingos">
+                  <div className="work-img">
+                    <img src={stars_intro} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">This website</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            Written in React and NodeJS, hosted on Firebase
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
             </div>
