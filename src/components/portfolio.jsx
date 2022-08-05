@@ -313,7 +313,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">This website</h2>
+                        <h2 className="w-title">timdg.xyz</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Written in React and NodeJS, hosted on Firebase

@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "./static/css/main.153bd214.chunk.css",
-    "main.js": "./static/js/main.e7c913f3.chunk.js",
-    "main.js.map": "./static/js/main.e7c913f3.chunk.js.map",
+    "main.js": "./static/js/main.e999fe81.chunk.js",
+    "main.js.map": "./static/js/main.e999fe81.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.0a5e682f.js",
     "runtime-main.js.map": "./static/js/runtime-main.0a5e682f.js.map",
     "static/css/2.a417cd58.chunk.css": "./static/css/2.a417cd58.chunk.css",
-    "static/js/2.2ae33f6b.chunk.js": "./static/js/2.2ae33f6b.chunk.js",
-    "static/js/2.2ae33f6b.chunk.js.map": "./static/js/2.2ae33f6b.chunk.js.map",
+    "static/js/2.0a196554.chunk.js": "./static/js/2.0a196554.chunk.js",
+    "static/js/2.0a196554.chunk.js.map": "./static/js/2.0a196554.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.7727f6390604281950d922ecbcf186f7.js": "./precache-manifest.7727f6390604281950d922ecbcf186f7.js",
+    "precache-manifest.824c6beeace0f6addb7773726deccab1.js": "./precache-manifest.824c6beeace0f6addb7773726deccab1.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.a417cd58.chunk.css.map": "./static/css/2.a417cd58.chunk.css.map",
     "static/css/main.153bd214.chunk.css.map": "./static/css/main.153bd214.chunk.css.map",
-    "static/js/2.2ae33f6b.chunk.js.LICENSE.txt": "./static/js/2.2ae33f6b.chunk.js.LICENSE.txt",
+    "static/js/2.0a196554.chunk.js.LICENSE.txt": "./static/js/2.0a196554.chunk.js.LICENSE.txt",
     "static/media/backstage_logo_words.png": "./static/media/backstage_logo_words.6c944474.png",
     "static/media/components.png": "./static/media/components.7c1fc7b5.png",
     "static/media/config&publish.png": "./static/media/config&publish.9e492f7e.png",
@@ -37,6 +37,7 @@
     "static/media/image4.jpg": "./static/media/image4.0b37f434.jpg",
     "static/media/image5.jpg": "./static/media/image5.8d16c4af.jpg",
     "static/media/image6.jpg": "./static/media/image6.62b7cc75.jpg",
+    "static/media/intro2.png": "./static/media/intro2.7c6b9adb.png",
     "static/media/ionicons.css": "./static/media/ionicons.621bd386.svg",
     "static/media/keeper_add.png": "./static/media/keeper_add.da167139.png",
     "static/media/keeper_all.png": "./static/media/keeper_all.462481a1.png",
@@ -60,8 +61,8 @@
   "entrypoints": [
     "static/js/runtime-main.0a5e682f.js",
     "static/css/2.a417cd58.chunk.css",
-    "static/js/2.2ae33f6b.chunk.js",
+    "static/js/2.0a196554.chunk.js",
     "static/css/main.153bd214.chunk.css",
-    "static/js/main.e7c913f3.chunk.js"
+    "static/js/main.e999fe81.chunk.js"
   ]
 }
