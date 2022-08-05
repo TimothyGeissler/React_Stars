@@ -37,6 +37,11 @@ import time_sett_sql from "../img/timetabler/time_settings_sql.png";
 import time_ui_table from "../img/timetabler/time_ui_table.png";
 import time_dash_home from "../img/timetabler/time_dash_home.png";
 
+import backstage_components from "../img/backstage/components.png";
+import backstage_config from "../img/backstage/config&publish.png";
+import backstage_swcatalog from "../img/backstage/swcatalog.png";
+import backstage_templates from "../img/backstage/templates.png";
+import backstage_logo_words from "../img/backstage/backstage_logo_words.png";
 
 class Portfolio extends React.Component {
   render() {
@@ -173,6 +178,56 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
+                <a href={backstage_templates} data-lightbox="gallery-medlingos">
+                  <div className="work-img">
+                    <img src={backstage_logo_words} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Backstage for SailPoint</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            A centralized management and templating system for SailPoint's cloud microservices
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href={backstage_config}
+                  data-lightbox="gallery-medlingos"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={backstage_swcatalog}
+                  data-lightbox="gallery-medlingos"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={backstage_components}
+                  data-lightbox="gallery-medlingos"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div className="row">
+          <div className="col-md-4">
+              <div className="work-box">
                 <a href={do_desc} data-lightbox="gallery-medlingos">
                   <div className="work-img">
                     <img src={do_square} alt="" className="img-fluid" />
@@ -247,6 +302,7 @@ class Portfolio extends React.Component {
               </div>
             </div>
           </div>
+
         </div>
       </section>
     );
