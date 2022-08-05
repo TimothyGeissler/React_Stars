@@ -16,15 +16,18 @@ class Contact extends React.Component {
                 <div id="contact" className="box-shadow-full">
                   <div className="row">
                     
-                    <div className="col-md-6">
-                      <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">Links</h5>
+                    <div className="col-md-12">
+                      <div className="title-box-2 pt-4 pt-md-0" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                        <h5 className="title-left">My Links</h5>
                       </div>
-                      <div className="more-info">
-                        <p className="lead">
-                          Feel free to explore the links below,
+                      <div className="more-info" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                        <p className="lead" style={{textAlign:'center'}}>
+                          Feel free to explore the links below;
                           <br />
-                          Download a copy of my resumé, explore my Github page, or visit my LinkedIn profile.
+                          <br></br>
+                          Download a copy of my resume, explore my Github page, 
+                          <br/>
+                          or visit my LinkedIn profile.
                         </p>
                         {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
@@ -32,7 +35,7 @@ class Contact extends React.Component {
                                 <li><span class="ion-email"></span> contact@example.com</li>
                                 </ul> --> */}
                       </div>
-                      <div className="socials" tex>
+                      <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}} className="socials" tex>
                         <ul>
                           <li>
                             <a
