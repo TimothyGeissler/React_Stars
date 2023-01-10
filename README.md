@@ -1,3 +1,6 @@
+# Personal Portfolio Website
+Written in ReactJS, this codebase is hosted in Firebase at https://timdg.xyz
+
 ## Running Locally
 Run `npm install`, then `npm start` to run locally @ `http://localhost:3000/`
 
